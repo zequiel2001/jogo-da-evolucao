@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(20, 147, 220), rgb(136, 120, 230));
+    animation: animado 2s ease-in-out infinite;
+
+}
+
+@keyframes animado {
+    0%{
+        background: linear-gradient(to right, rgb(136, 120, 230), rgb(20, 147, 220));
+    }
+    50%{
+        background: linear-gradient(to right, rgb(20, 147, 220), rgb(136, 120, 230));
+    }
+    100%{
+        background: linear-gradient(to right, rgb(136, 120, 230), rgb(20, 147, 220));
+    }
+}
+div{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #fff;
+    width: 57%;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 90%;
+}
+.link{
+    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    border: none;
+    padding: 10px;
+    width: 180px;
+    border-radius: 7px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+
+    
+}
+.inputSubmit:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+
+@font-face {
+    src: url(fontes/Burbank\ Big\ Condensed\ Black.ttf);
+    font-family: 'Burbank-Big-Condensed-Black';    
+    font-weight: normal;
+} 
+
+h1{
+    font-family: 'Burbank-Big-Condensed-Black'; 
+    font-size: 2.8em;
+    letter-spacing: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.encerramento{
+    text-align: justify;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.pontuacoes{
+    background-color: #fff;
+    border-radius: 7px;
+    /* position: relative;
+    left: 25%;
+    top: 200px; */
+    z-index: 1;
+}
+
+.rank{
+    border-radius: 7px;
+    padding-left: 10px;
+    font-weight: bold;
+    color:black;
+    
+}
+
+.rank_p{
+    background-image: linear-gradient(to right,rgba(0, 92, 197, 0.596), rgba(90, 20, 220, 0.5));
+    border-radius: 7px;
+    width: 140px;
+    text-align:center;
+    font-weight: bold;
+    color:#fff;
+    letter-spacing: 1px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.rank_c{
+    text-align: center;
+    border-radius: 7px;
+    font-weight: bold;
+    color:black;
+}

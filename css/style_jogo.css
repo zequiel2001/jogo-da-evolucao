@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    margin: 0;
+    padding: 0;
+}
+
+.cabecario{
+    height: 40px;
+    width: 2800px;
+    background-color: aliceblue;
+    /* text-align: center; */
+    
+}
+
+@font-face {
+    src: url(fontes/Burbank\ Big\ Condensed\ Black.ttf);
+    font-family: 'Burbank-Big-Condensed-Black';    
+    font-weight: normal;
+} 
+
+.titulo{
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: fixed;
+    top: 0;
+    left: 100px;
+    font-family: 'Burbank-Big-Condensed-Black';
+    color: black;
+    font-size: 29px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 3px;
+    /* text-align: center; */
+    
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: fixed;
+    left: 100px;
+}

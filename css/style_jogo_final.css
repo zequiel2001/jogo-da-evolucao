@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(20, 147, 220), rgb(136, 120, 230));
+}
+div{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #fff;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    width: 90%;
+}
+.link{
+    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    border: none;
+    padding: 10px;
+    width: 180px;
+    border-radius: 7px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+
+    
+}
+.inputSubmit:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+
+@font-face {
+    src: url(fontes/Burbank\ Big\ Condensed\ Black.ttf);
+    font-family: 'Burbank-Big-Condensed-Black';    
+    font-weight: normal;
+} 
+
+h1{
+    font-family: 'Burbank-Big-Condensed-Black'; 
+    font-size: 2.8em;
+    letter-spacing: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.encerramento{
+    text-align: justify;
+    font-family: 'Fira Sans', sans-serif;
+}
